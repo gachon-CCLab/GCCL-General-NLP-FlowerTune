@@ -2,9 +2,9 @@
 
 ### Evaluation for General NLP challenge (Result of 10th checkpoint out of 10 total rounds)
 
-|         | STEM  | SS    | Humanities | Avg   |
-| ------- | ----- | ----- | ---------- | ----- |
-| Acc (%) | 54.32 | 79.91 | 60.27      | 64.85 |
+|        | STEM  | SS    | Humanities | Avg   |
+| :-----: | ----- | ----- | :--------: | ----- |
+| Acc (%) | 54.32 | 79.91 |   60.27   | 64.85 |
 
 #### Changes from baseline
 
