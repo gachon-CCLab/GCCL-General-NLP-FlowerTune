@@ -1,4 +1,4 @@
-# GCCL-General-NLP-FlowerTune
+# GCCL-Gemma2-9B-FlowerTune
 
 ### Evaluation for General NLP challenge (Result of 10th checkpoint out of 10 total rounds)
 
@@ -25,7 +25,6 @@ peft_config = LoraConfig(
 	use_dora=True,
 )
 ```
-
 
 <models.py> & <client_app.py>
 
