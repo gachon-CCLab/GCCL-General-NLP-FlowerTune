@@ -8,7 +8,7 @@
 
 #### Changes from baseline
 
-<pyproject.toml>
+**<pyproject.toml>**
 
 `model.name = "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct"`
 
@@ -18,7 +18,7 @@
 
 `model.lora.peft-lora-alpha = 16`
 
-<models.py>
+**<models.py>**
 
 ```
 peft_config = LoraConfig(
@@ -26,12 +26,20 @@ peft_config = LoraConfig(
 )
 ```
 
-<models.py> & <client_app.py>
+This setting allows you to perform fine-tuning using [DoRA](https://huggingface.co/papers/2402.09353).
+
+**<models.py> & <client_app.py>**
 
 ```
 from transformers.utils.logging import set_verbosity_error
 set_verbosity_error()
 ```
+
+This code is a function that sets the logging level of the transformers library.
+
+set_verbosity_error() limits the output level of logging messages to **"ERROR level"**.
+This setting is used to simplify the user experience and remove unnecessary output such as warning or info messages.
+This allows developers to focus on important issues by setting the output to error logs only.
 
 #### Evaluation Command
 
