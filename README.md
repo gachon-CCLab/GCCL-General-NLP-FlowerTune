@@ -28,7 +28,7 @@ peft_config = LoraConfig(
 
 This setting allows you to perform fine-tuning using [DoRA](https://huggingface.co/papers/2402.09353).
 
-**<models.py> & <client_app.py>**
+**[Optional] <models.py> & <client_app.py>**
 
 ```
 from transformers.utils.logging import set_verbosity_error
